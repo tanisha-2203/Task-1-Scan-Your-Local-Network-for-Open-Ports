@@ -1,0 +1,52 @@
+# Nmap 7.94SVN scan initiated Mon Jun 23 18:24:14 2025 as: nmap -oN my_results.txt 192.168.29.110/24
+Nmap scan report for reliance.reliance (192.168.29.1)
+Host is up (0.0024s latency).
+Not shown: 991 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+80/tcp   open   http
+443/tcp  open   https
+1900/tcp open   upnp
+2869/tcp closed icslap
+7443/tcp open   oracleas-https
+8002/tcp closed teradataordbms
+8080/tcp open   http-proxy
+8200/tcp closed trivnet1
+8443/tcp open   https-alt
+
+Nmap scan report for 192.168.29.34
+Host is up (0.0057s latency).
+All 1000 scanned ports on 192.168.29.34 are in ignored states.
+Not shown: 1000 closed tcp ports (conn-refused)
+
+Nmap scan report for 192.168.29.59
+Host is up (0.0091s latency).
+All 1000 scanned ports on 192.168.29.59 are in ignored states.
+Not shown: 1000 closed tcp ports (conn-refused)
+
+Nmap scan report for 192.168.29.75
+Host is up (0.0077s latency).
+All 1000 scanned ports on 192.168.29.75 are in ignored states.
+Not shown: 1000 closed tcp ports (conn-refused)
+
+Nmap scan report for tanisha-gupta-LOQ-15ARP9 (192.168.29.110)
+Host is up (0.00012s latency).
+All 1000 scanned ports on tanisha-gupta-LOQ-15ARP9 (192.168.29.110) are in ignored states.
+Not shown: 1000 closed tcp ports (conn-refused)
+
+Nmap scan report for 192.168.29.113
+Host is up (0.0081s latency).
+All 1000 scanned ports on 192.168.29.113 are in ignored states.
+Not shown: 1000 closed tcp ports (conn-refused)
+
+Nmap scan report for 192.168.29.221
+Host is up (0.0058s latency).
+All 1000 scanned ports on 192.168.29.221 are in ignored states.
+Not shown: 1000 closed tcp ports (conn-refused)
+
+Nmap scan report for 192.168.29.243
+Host is up (0.0038s latency).
+Not shown: 999 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+5000/tcp open  upnp
+
+# Nmap done at Mon Jun 23 18:24:52 2025 -- 256 IP addresses (8 hosts up) scanned in 38.21 seconds
